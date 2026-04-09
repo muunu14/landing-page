@@ -50,11 +50,11 @@ const HowToUse2 = () => {
   );
   return (
     <div
-      className="bg-gray-50 dark:bg-black flex items-center justify-center transition-colors"
+      className="bg-gray-50 dark:bg-black mb-5 flex items-center justify-center transition-colors"
       id="how-to-use transition-colors"
     >
       <div className="mx-auto max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none md:flex">
-        <div className="flex flex-col gap-8 px-2 pb-15 rounded-2xl shadow-xl lg:p-8">
+        <div className="flex flex-col gap-8 px-2 pb-15 rounded-2xl  lg:p-8">
           {steps.map((step, index) => (
             <motion.div
               key={step.name}
@@ -62,11 +62,10 @@ const HowToUse2 = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
-              className={`relative flex flex-col justify-between items-center gap-8 bg-white dark:bg-white/5 p-8 rounded-2xl shadow-sm hover:scale-105 hover:shadow-xl transition-all ${
+              className={`relative flex flex-col justify-between items-center gap-8 bg-white dark:bg-white/5 p-8 rounded-2xl shadow-xl hover:scale-105 hover:shadow-xl transition-all ${
                 index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
               }`}
             >
-
               <div className="shrink-0 w-84 h-48 rounded-xl overflow-hidden">
                 <img
                   src={step.image}

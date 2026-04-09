@@ -13,7 +13,7 @@ export default function Footer() {
             <span className="">Twitter</span>
           </a>
           <a href="#" className="text-gray-400 hover:text-gray-500">
-            <span className="">GitHub</span>
+            <span>Chrome Store</span>
           </a>
         </div>
         <div className="md:order-1 flex items-center justify-center mt-4 md:mt-7 md:justify-start">

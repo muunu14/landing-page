@@ -104,20 +104,21 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
             >
               <h1 className="text-4xl font-bold text-gray-900 dark:text-white sm:text-6xl">
-                Монгол хэлний зөв бичгийн алдаа шалгагч
+                Монгол хэлний зөв бичгийн алдаа шалгагч{" "}
+                <span className="text-red-300">EXTENSION</span>
               </h1>
               <p className="mt-6 text-lg text-gray-600 dark:text-gray-400">
                 Таны бичсэн текстэн дэх алдааг хоромхон зуурт илрүүлж, засаж
                 санал болгоно.
               </p>
-              <div className="mt-10 flex justify-center items-center gap-6">
-                <a className="bg-[#F47983] px-6 py-3 rounded-full text-white flex items-center gap-2 hover:scale-105 transition">
+              <div className="mt-10 flex md:flex-row flex-col justify-center items-center gap-6">
+                <a className="bg-[#F47983] px-6 py-3 rounded-full text-white flex items-center justify-center w-60 gap-2 hover:scale-105 transition md:text-xl text-lg">
                   <Globe className="w-5 h-5" />
                   Chrome-д нэмэх
                 </a>
                 <a
                   href="#how-to-use transition-colors "
-                  className="bg-[#F47983] px-6 py-3 rounded-full text-white flex gap-2 hover:scale-105 transition"
+                  className="bg-[#F47983] px-6 py-3 rounded-full text-white w-60 flex items-center justify-center gap-2 hover:scale-105 transition md:text-xl text-lg"
                 >
                   Хэрхэн ажилладаг <ArrowRight />
                 </a>

@@ -118,7 +118,7 @@ export default function Hero() {
                 </a>
                 <a
                   href="#how-to-use transition-colors "
-                  className="bg-[#F47983] px-6 py-3 rounded-full text-white w-60 flex items-center justify-center gap-2 hover:scale-105 transition md:text-xl text-lg"
+                  className="bg-[#F47983] px-6 py-3 rounded-full text-white w-70 flex items-center justify-center gap-2 hover:scale-105 transition md:text-xl text-lg"
                 >
                   Хэрхэн ажилладаг <ArrowRight />
                 </a>
